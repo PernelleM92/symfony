@@ -1,0 +1,34 @@
+RESEAUX
+
+notions de bases :
+Les réseaux sont souvent organisés selon un principe de clients et de serveurs.
+Cette notion explique le chemin fais entre le client (nous) vers le serveur (facebook ou autre)
+Ce meme chemin est fait entre les logiciels : facebook du client jusqu'au serveur de facebook.
+Reausete / réponse -> Le client et le serveur vont communiquer au moyen d'une requête (une demande) et une réponse (on renvoit une info)
+URL -> Composée de plusieurs éléments : 
+* protocole
+* utilisateurs
+* domaines
+* chemins
+* ressources
+protocole://utilisateur@domaine.fr:port/chemin/ressource.ressource
+http://colombbus.org/contact/index.html
+http://localhost:8080
+toutes les portions de l'URL ne sont pas obligatoires
+
+HTTP :
+
+Langage réseau (noob) -> protocoles de communication(pro)
+Il fonctionne avec un logiciel client HTTP (navigateur) et un szerveur HTTP (Apache ou NginX).
+
+LARAGON - WAMPP :
+
+Des sacs réunissent plusieurs logiciels pour simplifier installation et utilisation de site
+-Serveur HTTP (Apache / Nginx / NodeJS(serveur HTTP particulier)
+-Serveur MySQL / client MySQL : PHPmyadmin
+
+PHP : langage informatique qui fonctionne à l'intérieur d'un serveur HTTP. Il permet de générer des pages dynamiques3
+
+A VOIR LES VIDEOS DE REGIS
+https://www.youtube.com/playlist?list=PL8kL0Dz1-IbjY7RwTK6VHP_MDr0jeAvBm
+
